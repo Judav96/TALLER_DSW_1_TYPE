@@ -1,0 +1,9 @@
+import { Serie } from "./models/serie.js";
+export const series = [
+    new Serie(1, "Breaking Bad", "AMC", 5, "Set and filmed in Albuquerque, New Mexico, the series tells the story of Walter White, a struggling and depressed high school chemistry teacher who is diagnosed with lung cancer.", "https://upload.wikimedia.org/wikipedia/en/6/61/Breaking_Bad_title_card.png", "https://www.amc.com/shows/breaking-bad"),
+    new Serie(2, "Orange Is the New Black", "Netflix", 6, "The story of Piper Chapman, a woman sentenced to fifteen months in a women's federal prison.", "https://upload.wikimedia.org/wikipedia/en/7/7b/Orange_Is_the_New_Black_title_card.png", "https://www.netflix.com/orangeisthenewblack"),
+    new Serie(3, "Game of Thrones", "HBO", 7, "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns.", "https://upload.wikimedia.org/wikipedia/en/d/d8/Game_of_Thrones_title_card.jpg", "https://www.hbo.com/game-of-thrones"),
+    new Serie(4, "The Big Bang Theory", "CBS", 12, "A woman shows two brilliant but socially awkward physicists how little they know about life outside of the laboratory.", "https://upload.wikimedia.org/wikipedia/en/7/7e/The_Big_Bang_Theory_logo.svg", "https://www.cbs.com/shows/big_bang_theory"),
+    new Serie(5, "Sherlock", "BBC", 4, "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.", "https://upload.wikimedia.org/wikipedia/en/b/b9/Sherlock_titlecard.jpg", "https://www.bbc.co.uk/programmes/b018ttws"),
+    new Serie(6, "A Very English Scandal", "BBC", 2, "A member of Parliament begins a secret relationship with a young man, but their affair threatens to destroy his career.", "https://upload.wikimedia.org/wikipedia/en/1/1c/A_Very_English_Scandal.png", "https://www.bbc.co.uk/programmes/p065smy4")
+];
