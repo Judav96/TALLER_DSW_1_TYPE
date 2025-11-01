@@ -1,4 +1,5 @@
 import { series } from "./data.js";
+console.log("✅ Script cargado correctamente");
 const tbody = document.getElementById("series-table-body");
 const averageElm = document.getElementById("average-seasons");
 function renderSeries(series) {
