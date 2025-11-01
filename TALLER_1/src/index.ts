@@ -1,7 +1,6 @@
 import { series } from "./data.js";
 import { Serie } from "./models/series.js";
 
-// Obtener elementos del DOM
 var seriesTableBody = document.getElementById("series-table-body")!;
 var averageElement = document.getElementById("average-seasons")!;
 var detailElement = document.getElementById("series-detail")!;

@@ -1,31 +1,21 @@
 import { Serie } from "./models/series.js";
 
 export const series: Serie[] = [
-  new Serie(
-    1,
-    "Breaking Bad",
-    "AMC",
-    5,
-    "A high school chemistry teacher turned methamphetamine producer...",
-    "https://www.amc.com/shows/breaking-bad",
-    "https://upload.wikimedia.org/wikipedia/en/6/61/Breaking_Bad_title_card.png"
-  ),
-  new Serie(
-    2,
-    "Orange Is the New Black",
-    "Netflix",
-    6,
-    "Convicted of a decade old crime of transporting drug money...",
-    "https://www.netflix.com/co/title/70242311",
-    "https://upload.wikimedia.org/wikipedia/en/7/7b/Orange_is_the_new_black_title_card.png"
-  ),
-  new Serie(
-    3,
-    "Game of Thrones",
-    "HBO",
-    8,
-    "Nine noble families wage war against each other in order to gain control...",
-    "https://www.hbo.com/game-of-thrones",
-    "https://upload.wikimedia.org/wikipedia/en/d/d8/Game_of_Thrones_title_card.jpg"
-  )
+  new Serie (1,"Breaking Bad","AMC", 5,"Set and filmed in Albuquerque, New Mexico, the series tells the story of Walter White, a struggling and depressed high school chemistry teacher who is diagnosed with lung cancer" ,
+    "https://www.amc.com/shows/breaking-bad", "https://i.ytimg.com/vi/iiXGFFPHtCA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDSVE2KNxuXd9pm67LZIHoSBhM2fg") ,
+    
+    new Serie (2,"Orange Is the New Black", "Netflix", 6, "The series begins revolving around Piper Chapman, a woman in her thirties living in New York City who is sentenced to 15 months in Litchfield Penitentiary", 
+    "https://www.netflix.com/co/title/70242311","https://fotografias.antena3.com/clipping/cmsimages01/2018/07/23/53FC68B5-1AAA-4D53-964B-BBA54717616C/98.jpg?crop=2423,1363,x0,y1103&width=1900&height=1069&optimize=high&format=webply"),
+    
+    new Serie (3, "Game of Thrones","HBO", 7, "American fantasy drama", "https://www.hbo.com/game-of-thrones",
+      "https://static.hbo.com/game-of-thrones-1-1920x1080.jpg"),
+
+    new Serie (4, "The Big Bang Theory", "CBS", 12, "Leonard and Sheldon are brilliant physicists—geniuses in the laboratory but socially challenged everywhere else. Enter beautiful, street-smart neighbor Penny, who aims to teach them a thing or two about life. Despite their on-again, off-again relationship in the past, Leonard and Penny have finally gotten married. Even Sheldon has found a female companion, entering into a relationship agreement with neurobiologist Amy Farrah Fowler, and he recently took their relationship to the next level by marrying her after a long courtship. In their free time, Leonard and Sheldon enjoy fantasy role-playing games with their ever-expanding universe of friends, including fellow scientists Koothrappali, Wolowitz, and Wolowitz’s adorable microbiologist wife, Bernadette, who is adjusting to life with their two children.",
+        "https://www.cbs.com/shows/big_bang_theory/about/", "https://imagenes.elpais.com/resizer/v2/https%3A%2F%2Fep01.epimg.net%2Fcultura%2Fimagenes%2F2017%2F09%2F24%2Ftelevision%2F1506207395_359058_1506247478_noticia_fotograma.jpg?auth=d80776c40f40137dd89601e064329e98be70a23851baa11a9a8e69b6c130a418&width=1960&height=1103&smart=true"),
+    
+    new Serie (5, "Sherlock", "BBC",  4, "Sherlock depicts consulting detective Sherlock Holmes (Benedict Cumberbatch) solving various mysteries in modern-day London. Holmes is assisted by his flatmate and friend, Dr John Watson (Martin Freeman), who has returned from military service in Afghanistan with the Royal Army Medical Corps",
+        "https://www.bbc.co.uk/programmes/b018ttws", "https://occ-0-8407-2218.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABVWmIs2TQ8znJgz2L2o8ACKNmtkzLqfcHIzAV2ukPcrs8GN8GArfx9P2uEVKqpn1jD-ndi6OMPgnygaUMfe3aa5zvdEnZ-KoSbfN.jpg?r=ab0"),
+
+    new Serie (6, "A Very English Scandal", "BBC", 2, "A Very English Scandal is a fact-based three-part British television comedy-drama miniseries based on John Preston's book of the same name.",
+        "https://www.bbc.co.uk/programmes/p065smy4", "https://images.amcnetworks.com/amctv.la/wp-content/uploads/2019/02/AVES_AMBOS_BLOG1.jpg"),
 ];
